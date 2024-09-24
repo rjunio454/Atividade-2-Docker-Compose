@@ -32,7 +32,7 @@ Este projeto utiliza o Docker para rodar uma aplicação Flask em dois contêine
 1. **Clone o repositório:**
 
    ```bash
-   git clone <seu-repositorio-url>
+   git clone https://github.com/rjunio454/Atividade-2-Docker-Compose.git
    cd <nome-do-projeto>
    ```
 
@@ -49,7 +49,7 @@ Este projeto utiliza o Docker para rodar uma aplicação Flask em dois contêine
    Após iniciar os contêineres, a aplicação estará disponível em:
 
    ```bash
-   http://localhost/
+   http://localhost:5000
    ```
 
    O Nginx redirecionará o tráfego para um dos contêineres Flask e retornará o nome do contêiner e o IP que processou a requisição.
